@@ -18,5 +18,5 @@ a tool that will save you time and effort in managing your stock and calculating
 
 		Non Fuctional Requirments
 -->The Application should have an attractive,apealing,and easy to use and Responsive UI
--->The Application Should be Stable
+-->The Application Should be Stable.......
 -->The Application Should be launched 
