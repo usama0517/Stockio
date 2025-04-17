@@ -6,7 +6,7 @@ to my mom. i was using microsoft excel and a notebook for maintainig data so now
 application it might have make my work easier and i also know people who are still strugling in buissness and who still uses pen and paper for maintaining
 and managing their buissness so because of the problem i faced before and because of the problem some people are facing today i decided to build Stockiyo
 a tool that will save you time and effort in managing your stock and calculating your revenue.
-
+..
 
 
               Functional Requirments
