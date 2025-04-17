@@ -1,0 +1,22 @@
+ Why I decided to build Stockiyo?
+-->I have worked as a sales for a distrbution buissness and because it was a family buissness i had an overlaping responsiblity. for me the hardest part
+was not saling the product but the hardest part was managing the stock when the product was loaded on the car i counted them then after the sales operation 
+i will count the remaining i will subtract from the total amount the one which are sold or discarded and i will also calculate the revenue and i will report
+to my mom. i was using microsoft excel and a notebook for maintainig data so now as a software enginner i think that at that time if i got some software
+application it might have make my work easier and i also know people who are still strugling in buissness and who still uses pen and paper for maintaining
+and managing their buissness so because of the problem i faced before and because of the problem some people are facing today i decided to build Stockiyo
+a tool that will save you time and effort in managing your stock and calculating your revenue.
+
+
+
+              Functional Requirments
+ -->The Application should Authenticate the User
+ -->The User can give accsess to certain users(employees) to do a specific task
+-->The Application should allow the user to create, delete, update Catagories and Products
+-->The Application should recive and store daily sales and amount of discarded items if any 
+-->The Application should calculate the total revenue based on sold products of each day, week,month and year
+
+		Non Fuctional Requirments
+-->The Application should have an attractive,apealing,and easy to use and Responsive UI
+-->The Application Should be Stable
+-->The Application Should be launched 
