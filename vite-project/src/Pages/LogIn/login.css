@@ -1,0 +1,54 @@
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: max-content;
+    height: 40vh;
+  }
+  h1{
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .holder{
+   width: 70%;
+    background-color: beige;
+    display: block flex;
+   align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vh;
+    height: 80vh;
+    text-align: center;
+  }
+  .form-div{
+    margin: 10h;
+    
+  }
+  label{
+    margin-right: 20px;
+    font-weight: bolder;
+    font-size: larger;
+  }
+  input{
+    font-size: large;
+    width: 40vh;
+    height: 5vh;
+  }
+  button{
+    font-size: large;
+    margin-bottom: 20px;
+  }
+  button{
+    font-size: large;
+    margin: 20px;
+  }
+  .button-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
