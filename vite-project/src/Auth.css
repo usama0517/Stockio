@@ -1,0 +1,104 @@
+/*The Result of this code is fully Responsive UI Login and SignUp page*/
+
+
+/* 
+Yes I Know that putting a common css file for two differnt pages may result in high coupling
+but currently the two pages has a lot in common in their UI Design so i used a common css file.
+ But incase for future maintaiance or design changes i also have created a separate css files for each page 
+ 
+ */
+input[type="submit"]{
+  display: block;
+}
+.form-fields-holder{
+     display: block;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.padding10{
+  padding: 10px;
+}
+input{
+  margin: 10px;
+}
+.container{
+text-align: center;
+align-items: center;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+height: 100vh;
+width: 100%;
+}
+
+label{
+  font-size: 1.4rem;
+  font-weight: 600;
+  width: 20px
+}
+input[type="text"],input[type="password"]{
+  height: 3vh;
+}
+
+.sub-container{
+  background-color: bisque;
+  margin-top: 0%;
+min-height: 60vh;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+
+input{
+       font-size: 1.2rem;
+       border-radius: 5px;
+       border: 1px solid black;
+       padding: 5px;
+}
+
+.not-have-text{
+  font-size: 1.3rem;
+  margin: 5px;
+  
+}
+
+input[type="submit"]{
+  background-color: rgb(164, 164, 235);
+  width: 10vw;
+}
+/* DRY principle in implemented and there is no dupplication of code if change of style needded it can be changed easily */
+@media screen and (max-width:767px){
+  
+input[type="submit"]{
+  background-color: rgb(164, 164, 235);
+  width: 30vw;
+}
+
+
+}
+
+/* The Above is Mobiles Design and below is desktop design*/
+@media screen and (min-width:767px){
+  form{
+  height: 40vh;
+  width: 60vw;
+}
+
+.sub-container{
+  min-height: 80vh;
+}
+
+
+input[type="text"],input[type="password"]{
+  padding: 10px
+}
+}
