@@ -1,0 +1,4 @@
+input[type="submit"],button{
+  background-color: rgb(164, 164, 235);
+  min-width: 10vw;
+}

@@ -6,6 +6,7 @@ import java.util.Objects;
 
 @RestController
 @RequestMapping("/api/users")
+@CrossOrigin
 public class UserController {
     private final UserRepository userRepository;
     private final  UserService userService;
@@ -15,7 +16,7 @@ public class UserController {
         this.userService = userService;
     }
 
-    @GetMapping("/login")
+    @PostMapping("/login")
     public Users getUser(@RequestBody Users u  ){
         return userService.logIn(u);
     }
