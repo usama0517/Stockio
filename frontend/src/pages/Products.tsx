@@ -11,8 +11,6 @@ import {
   MenuItem,
   Chip,
   Grid,
-  Card,
-  CardContent,
   Typography,
   InputAdornment,
   IconButton,
@@ -30,7 +28,6 @@ import {
   Edit as EditIcon,
   Delete as DeleteIcon,
   Search as SearchIcon,
-  Visibility as VisibilityIcon,
   Inventory as InventoryIcon,
 } from '@mui/icons-material'
 import { useSnackbar } from '../contexts/SnackbarContext'
@@ -136,6 +133,7 @@ const Products = () => {
     if (window.confirm('Are you sure you want to delete this product?')) {
       try {
         // API call to delete
+        console.log(id)
         showSnackbar('Product deleted successfully', 'success')
         fetchProducts()
       } catch (error) {

@@ -88,29 +88,22 @@ const Layout = () => {
       </Toolbar>
       <List sx={{ flex: 1, p: 2 }}>
         {menuItems.map((item) => (
-          <ListItem
-            button
-            key={item.text}
-            onClick={() => handleNavigation(item.path)}
-            sx={{
-              borderRadius: 2,
-              mb: 1,
-              '&:hover': {
-                backgroundColor: 'primary.light',
-                color: 'white',
-                '& .MuiListItemIcon-root': {
-                  color: 'white',
-                },
-              },
-              '&.Mui-selected': {
-                backgroundColor: 'primary.main',
-                color: 'white',
-                '& .MuiListItemIcon-root': {
-                  color: 'white',
-                },
-              },
-            }}
-          >
+         <ListItem
+  key={item.text}
+  onClick={() => handleNavigation(item.path)}
+  sx={{
+    borderRadius: 2,
+    mb: 1,
+    cursor: 'pointer', // Add cursor pointer
+    '&:hover': {
+      backgroundColor: 'primary.light',
+      color: 'white',
+      '& .MuiListItemIcon-root': {
+        color: 'white',
+      },
+    },
+  }}
+>
             <ListItemIcon sx={{ minWidth: 40 }}>{item.icon}</ListItemIcon>
             <ListItemText primary={item.text} />
           </ListItem>

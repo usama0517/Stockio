@@ -1,4 +1,4 @@
-import React, { createContext, useState, useContext, useEffect, ReactNode } from 'react'
+import  { createContext, useState, useContext, useEffect, ReactNode } from 'react'
 import { useNavigate } from 'react-router-dom'
 import api from '../services/api'
 import type { User } from '../types'
@@ -51,7 +51,8 @@ export const AuthProvider= ({ children }:AuthProviderProps) => {
     try {
       // TODO: Replace with actual API call
       // const response = await api.post('/auth/login', { email, password })
-      
+      const a = password;
+      console.log(`assasasa${a}sadbau2ebbadab`)
       // Mock response for now
       const mockUser: User = {
         id: '1',

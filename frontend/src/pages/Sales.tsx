@@ -222,7 +222,7 @@ const Sales = () => {
 
   const totalDiscardsToday = discards
     .filter(discard => format(new Date(discard.date), 'yyyy-MM-dd') === format(new Date(), 'yyyy-MM-dd'))
-    .reduce((sum, discard) => discard.quantity, 0)
+    .reduce((sum, discard) =>sum+ discard.quantity, 0)
 
   return (
     <Box>
@@ -543,3 +543,4 @@ const Sales = () => {
 }
 
 export default Sales
+

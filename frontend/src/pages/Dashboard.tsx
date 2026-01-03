@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import  { useState, useEffect } from 'react'
 import {
   Grid,
   Paper,
@@ -11,7 +11,6 @@ import {
 import {
   AttachMoney as AttachMoneyIcon,
   ShoppingCart as ShoppingCartIcon,
-  TrendingUp as TrendingUpIcon,
   Warning as WarningIcon,
   Inventory as InventoryIcon,
 } from '@mui/icons-material'
